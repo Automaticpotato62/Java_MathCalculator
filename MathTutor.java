@@ -16,6 +16,10 @@ package Java_MathCalculator;
         System.out.println("Welcome to Math Tutor!");
         System.out.println("/n Choose a problem: ");
         System.out.println("\n\n\n 1. SquareRoot \n 2. AreaOfRectangle \n 3.NaturalLogarithm");
-        String choice = input.nextLine();
+        int choice = input.nextInt();
+        if(choice == 1){
+            SquareRoot choice1 = new SquareRoot();
+            choice1.solveSqrt();
+        }
  }
  }

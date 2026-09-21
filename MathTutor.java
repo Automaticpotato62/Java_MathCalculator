@@ -14,12 +14,20 @@ package Java_MathCalculator;
     public static void main ( String [] args ){
         Scanner input = new Scanner(System.in);
         System.out.println("Welcome to Math Tutor!");
-        System.out.println("/n Choose a problem: ");
-        System.out.println("\n\n\n 1. SquareRoot \n 2. AreaOfRectangle \n 3.NaturalLogarithm");
+        System.out.println("\n Choose a problem: ");
+        System.out.println("\n\n\n 1. SquareRoot \n 2. AreaOfRectangle \n 3.NaturalLogarithm \n 4.QuadraticFormula \n 5. CubicVolume");
         int choice = input.nextInt();
         if(choice == 1){
             SquareRoot choice1 = new SquareRoot();
             choice1.solveSqrt();
+        }
+        if(choice == 3){
+            NaturalLogarithm choice3 = new NaturalLogarithm();
+            choice3.solveNaturalLog();
+        }
+        if(choice == 2){
+            AreaOfRec choice2 = new AreaOfRec();
+            choice2.solveArea();
         }
  }
  }

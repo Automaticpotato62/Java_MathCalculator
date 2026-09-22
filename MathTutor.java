@@ -31,11 +31,12 @@ package Java_MathCalculator;
         }
         if(choice == 4){
             QuadForm choice4 = new QuadForm();
-            choice4.solveQuad();
+           System.out.println(choice4.solveQuad()) ;
         }
         if(choice == 5){
             CubicVolume choice5 = new CubicVolume();
             choice5.solveVol();
         }
+        input.close();
  }
  }

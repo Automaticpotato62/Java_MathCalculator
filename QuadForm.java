@@ -17,17 +17,15 @@ public class QuadForm {
         a = input.nextDouble();
         c = input.nextDouble();
     }
-    public double solveQuad(){
+    public String solveQuad(){
         double d = (b*b)-(4*a*c);
         double x1 = (-b + Math.sqrt(d))/(2 * a);
         double x2 = (-b - Math.sqrt(d))/(2 * a);
-        if (d < 0){
-            System.out.println("negative sqrt, try again");
-            return 0.0;
+        if (d < 0.0){
+            System.out.println("negative sqrt, run program again");
+            return "0";
         }
-        double result = x1;
-        double result2 = x2;
+        String result = "Root 1: " + x1 + "root 2: " + x2;
         return result;
-        return result2;
     }
 }

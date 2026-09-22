@@ -1,4 +1,5 @@
 package Java_MathCalculator;
+
 /* 
 *Title: CubicVolume
 *Author: Anitej Narumanchi
@@ -6,8 +7,10 @@ package Java_MathCalculator;
 *Resources: 
 *
 */
+
 import java.util.Scanner;
-public class CubicVolume(){
+
+public class CubicVolume {
     Scanner input = new Scanner(System.in);
     private double radius;
     private double height;

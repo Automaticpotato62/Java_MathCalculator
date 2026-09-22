@@ -4,7 +4,7 @@ package Java_MathCalculator;
  * Author: Anitej Narumanchi
  * Purpose:
  *     code is able to run user-inputed values through equations to get answers, for 3-5 equations
- * Resources :
+ * Resources : Directions panel(for AP CSA mathCalc project)
  *      
 */
 
@@ -28,6 +28,14 @@ package Java_MathCalculator;
         if(choice == 2){
             AreaOfRec choice2 = new AreaOfRec();
             choice2.solveArea();
+        }
+        if(choice == 4){
+            QuadForm choice4 = new QuadForm();
+            choice4.solveQuad();
+        }
+        if(choice == 5){
+            CubicVolume choice5 = new CubicVolume();
+            choice5.solveVol();
         }
  }
  }

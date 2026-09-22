@@ -4,7 +4,7 @@ package Java_MathCalculator;
 *Author: Anitej Narumanchi
 *Purpose:
 *    provide the necessary code for the Square Root Class in order for the equation to work
-* Resources: 
+* Resources: Stack Overflow, Prior FRQs in AP CSA
 */ 
 import java.util.Scanner;
  

@@ -4,7 +4,7 @@ package Java_MathCalculator;
  * Author: Anitej Narumanchi
  * Purpose:
  *     code is able to run user-inputed values through equations to get answers, for 3-5 equations
- * Resources :
+ * Resources : AP CSA FRQ Questions in Classroom
  *      
 */
 import java.util.Scanner;

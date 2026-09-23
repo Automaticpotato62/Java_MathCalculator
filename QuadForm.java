@@ -2,6 +2,7 @@ package Java_MathCalculator;
 /*
 *Title: QuadForm
 * Author: Anitej Narumanchi
+ *Purpose: create code for running user inputed values in the quadratic formula
 * Resources: Stack Overflow, Quora, Youtube, MathWorks
 */
 import java.util.Scanner;

@@ -12,6 +12,7 @@ public class SquareRoot {
     Scanner input = new Scanner(System.in);
     private double inputNumber;
     public SquareRoot(){
+         System.out.println("√(x) = y");
          System.out.println("please input a value: ");
          inputNumber = input.nextDouble();
     }
